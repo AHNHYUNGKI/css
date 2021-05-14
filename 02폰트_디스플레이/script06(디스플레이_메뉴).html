@@ -17,7 +17,7 @@
             line-height: 50px;
             background-color: aqua;
         }
-
+        /*
         .wrap {background-color: black;}
 
         .gnb {text-align: center;}
@@ -37,7 +37,20 @@
             color: white;
             text-decoration: none;
         }
+        */
 
+        .wrap {text-align: center; background-color: black;}
+        .wrap > .gnb > li {
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+        }
+        .wrap > .gnb > li > a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .wrap > .gnb > li:hover {background-color: gray;}
 
     </style>
 
