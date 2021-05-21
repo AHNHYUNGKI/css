@@ -32,3 +32,13 @@
 
 /* 호버(실습) - 마진탑 -값을 사용하여 위로... */
 /* transition에 대한 내용을 확인 */
+.prod-list > .prod-color {
+    opacity: 0;
+    transition: all 0.5s ease-in-out; /* css속성, 기간, transition딜레이 */
+    margin-top: -33px;
+}
+
+/* 호버... */
+.prod-list:hover > .prod-color {
+    opacity: 1;
+}
